@@ -301,6 +301,29 @@ a:hover {
 
 .profile-container {
     text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 230px; /* or set a fixed width */
+    height: auto;
+}
+
+.intro-text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.profile-container {
+    text-align: center;
     margin: 0 auto;
     max-width: 400px; /* Adjust the max width as needed */
 }
