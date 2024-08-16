@@ -268,3 +268,32 @@ footer {
     color:#444;
   }
 }
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+a:hover {
+  color: #004080;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  margin-right: 30px;
+  /* margin-left: 10px; */
+}
+
+.social-icons {
+  margin-top: 25px;
+  /* margin-left: 30px; */
+}
+.social-icons a {
+  margin-right: 55px;
+  font-size: 30px;
+}
