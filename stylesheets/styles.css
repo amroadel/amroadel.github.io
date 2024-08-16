@@ -298,3 +298,48 @@ a:hover {
   margin-right: 55px;
   font-size: 30px;
 }
+
+.profile-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px; /* Adjust the max width as needed */
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Center image and add margin below */
+}
+
+.intro-text {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.has-text-align-center {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; /* Adjust icon color */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0073b1; /* Example hover color */
+}
+
+@media only screen and (min-width: 600px) {
+    .profile-container {
+        max-width: 600px;
+    }
+}
